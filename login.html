@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>ZeroToHeroMath</title>
+	<link rel="stylesheet" href="https://use.typekit.net/wpn6mbf.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href="css/login.css?version=2.2" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div class = "container">
+<!--         <div id="logo" class="w3-container w3-center w3-animate-opacity" style="text-align: center; display:block; margin-top:22px">
+        	<img src="css/LOGO.png" height="158" width="630">
+        </div> -->
+        <div id="auth">	
+			<div id="signin">
+				<form id="in-signin">
+			      <div class="form-group">
+			        <label style="color:white; font-size: 20px;"> Email </label>
+			        <input class="form-control" type="text" id="email-signin" />
+			      </div>
+			      <div class="form-group">
+			        <label style="color:white; font-size: 20px">Password</label>
+			        <input class="form-control" type="password" id="password-signin"/>
+			      </div>
+			      <button id="signin-load" type="submit" class="btn btn-success btn-lg" data-loading-text="<i class='fas fa-bowling-ball fa-spin'></i> Please Wait">Sign in</button>
+	        	</form>
+	        	<div class="redirect">
+		       		<button id="redirect-to-signup" type="submit" class="btn btn-link btn-lg" style="bottom:20px; font-size:18px">Sign up</button>
+		       		<button id="redirect-to-passforget" type="submit" class="btn btn-link btn-lg" style="bottom:20px; font-size:18px">Reset password</button>
+	       		</div>
+	        </div>
+
+	        <div id="passforget">
+				<form id="in-passforget">
+			      <div class="form-group">
+			        <label style="color:white; font-size: 20px">Email</label>
+			        <input class="form-control" type="text" id="email-passforget" />
+			      </div>
+			      <button id="passforget-load" type="submit" class="btn btn-success btn-lg" data-loading-text="<i class='fas fa-bowling-ball fa-spin'></i> Please Wait">Continue</button>
+	        	</form>
+	        	<div class="redirect">
+	        		<button id="redirect-to-signin" type="submit" class = "btn btn-link btn-lg" style="bottom:0px; font-size:18px;">Back to Sign-in</button>
+	       		</div>
+	        </div>
+
+			<div id="signup">
+				<form id="in-signup">
+				  <div class="form-group">
+			        <label style="color:white; font-size: 20px">Name</label>
+			        <input class="form-control" type="text" id="name-signup"/>
+			      </div>
+			      <div class="form-group">
+			        <label style="color:white; font-size: 20px">Email</label>
+			        <input class="form-control" type="text" id="email-signup"/>
+			      </div>
+			      <div class="form-group">
+			        <label style="color:white; font-size: 20px">Password</label><span><a href="#" id = "read_policy" style="color:red; font-size: 16px; font-weight: bold;">    Policy</a></span>
+			        <input class="form-control" type="password" placeholder="ex: SteVe2016" id="password-signup"/>
+			      </div>
+			      <button id="signup-load" type="submit" class="btn btn-success btn-lg" data-loading-text="<i class='fas fa-bowling-ball fa-spin'></i> Please Wait">Register</button>
+	        	</form>
+	        	<div class="redirect">
+	        		<button id="redirect-to-signin_2" type="submit" class = "btn btn-link btn-lg" style="bottom:0px; font-size:18px;">Back to Sign-in</button>
+	       		</div>
+	       	</div>
+       	</div>	
+ </div>
+   	<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="assets/amazon-cognito-identity.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aws-sdk/2.274.1/aws-sdk.min.js"></script>
+	<!-- <script src="assets/aws-sdk.min.js"></script> -->
+	<script src="assets/bootpopup.js"></script>
+	<script src="assets/app-login.js"></script>
+</body>

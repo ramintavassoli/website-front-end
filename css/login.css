@@ -1,0 +1,146 @@
+body{
+	display: none;
+    background-color: "black"; 
+    background-image: url("topp.jpg");
+    font-family:"Lato";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#auth{
+	position:relative;
+	top:80px;
+}
+
+.tooltip{
+	font-size:10pt;
+}
+
+.btn-link{
+	color: white;
+} 
+
+#signin{
+	font-size: 16px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+    height: 450px;
+    width: 350px;
+	background:rgba(0,0,0,0.5);
+}
+
+#in-signin{
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	top: 28px;
+	height: 80%;
+	width: 80%;
+}
+
+.redirect{
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	width: 80%;
+}
+
+#redirect-to-signup{
+	display:block;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#redirect-to-passforget{
+	display:block;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#signup{
+	display:none;
+	font-size: 16px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+    height: 450px;
+    width: 350px;
+	background:rgba(0,0,0,0.5);
+}
+
+#in-signup{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top:28px;
+	height: 80%;
+	width: 80%;
+}
+
+#redirect-to-signin{
+	display:block;
+	position:relative;
+	top: 10px;
+	margin:auto;
+}
+
+#redirect-to-signin_2{
+	display:block;
+	position:relative;
+	top: 10px;
+	margin: auto;
+}
+
+
+#passforget{
+	display:none;
+	font-size: 16px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+    height: 450px;
+    width: 350px;
+	background:rgba(0,0,0,0.5);
+}
+
+#in-passforget{
+	position: relative;
+	top:28px;
+	height: 80%;
+	width: 80%;
+	margin:auto;
+}
+
+#passchangeflow{
+	display:none;    
+}
+
+#in-passchangeflow{
+	position: relative;
+	top:20px;
+	height: 80%;
+	width: 80%;
+	margin:auto;
+}

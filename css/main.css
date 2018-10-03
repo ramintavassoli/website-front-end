@@ -1,0 +1,260 @@
+body{	
+	display: none;
+}
+
+html{
+	height: 100%;
+}
+
+div{
+	vertical-align: top;
+}
+
+nav{
+	display: inline-block;
+	position: absolute;
+	height: 70px; 
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (min-width: 780px) {
+	#logo{
+		float:left; 
+		width:30%;
+	}
+	#logo-shrink{
+		display: none;
+	}
+
+	#message{
+		color:white;
+		position:relative;
+		left:10px;
+		top:30px;
+	}
+
+	.container_out {
+	    background-image: url("bg.jpg");
+		background-repeat: no-repeat;
+	    background-position: center top;
+	}
+
+	.container{
+		position: relative;
+		top:70px;
+		width: 80%;
+		height:100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.courses{
+		position: relative;
+		margin-left:auto;
+		margin-right: auto;
+		top: 50px;
+		left: 10px;
+	}
+
+	.tab {
+		background:rgba(255,215,0,0.5);
+		color:white;
+		opacity: 50%;
+		position:relative;
+		width: 80%;
+		border: none;
+		padding: 0.5em;
+	}
+
+	.tabs a{
+		background:rgba(17,88,90,0.8);
+		border-radius: 3px 3px 0 0;
+		color:white;
+		display:block;
+		padding:0.5em 1em;
+		text-decoration:none;
+		font-size: 2.0vw;
+	}
+
+	#quote{
+		padding-top: 20px;
+		width:80%;
+		color:white; 
+	}
+	#carousel-id{
+		display:none;
+		width:80%;
+		padding-top: 20px;
+	}
+}
+
+
+@media screen and (max-width: 780px) {
+	#logo{
+		display:none;
+	}
+
+	#logo-shrink{
+		float:left; 
+		width:30%;
+	}
+
+	#message{
+		display: none;
+	}
+
+	.container_out{
+	    background-image: url("sj-eyes.jpg");
+		background-repeat: no-repeat;
+	    background-position: center top;
+	}
+
+	.container{
+		position: relative;
+		top:70px;
+		width: 80%;
+		height:100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#footer{
+		display: none;
+	}
+
+	.courses{
+		position: relative;
+		margin-left:auto;
+		margin-right: auto;
+		top: 150px;
+	}
+
+	.tab {
+		background:rgba(255,215,0,0.5);
+		color:white;
+		opacity: 50%;
+		position:relative;
+		width: 100%;
+		border: none;
+		padding: 0.5em;
+	}
+
+	.tabs a{
+		background:rgba(17,88,90,0.8);
+		border-radius: 3px 3px 0 0;
+		color:white;
+		display:block;
+		padding:0.5em 1em;
+		text-decoration:none;
+		font-size: 2.5vw;
+	}
+
+	#quote{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		width: 100%;
+		color:white; 
+	}
+	#carousel-id{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#profile-name{
+		display: none;
+	}
+
+	.container{
+		position: relative;
+		top:70px;
+		width: 100%;
+		height:100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.tabs a{
+		background:rgba(17,88,90,0.8);
+		border-radius: 3px 3px 0 0;
+		color:white;
+		display:block;
+		padding:0.5em 1em;
+		text-decoration:none;
+		font-size: 3.0vw;
+	}
+}
+
+#logo-shrink{
+	float:left;
+	width:30%;
+}
+
+#authenticate{
+	float:right;
+}
+
+#nav-container{
+	position: relative;
+	width: 80%;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+}
+
+.btn-warning.outline {
+	border: 2px solid #ffd700;
+	color: #ffd700;
+}
+
+.btn-warning.outline:hover, .btn-warning.outline:focus, .btn-warning.outline:active, .btn-warning.outline.active, .open > .dropdown-toggle.btn-warning {
+	color: #ffd764;
+	border-color: #ffd764;
+}
+
+.btn-danger.outline {
+	border: 2px solid #FF6347;
+	color: #FF6347;
+}
+
+.btn-danger.outline:hover, .btn-danger.outline:focus, .btn-danger.outline:active, .btn-danger.outline.active, .open > .dropdown-toggle.btn-danger {
+	color: red;
+	border-color: red;
+}
+
+.tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.tabs li {
+	display:inline-block;
+}
+
+.tabs a.current{
+	background: rgba(255,215,0, 0.5);
+	color:white;
+}
+.tabs a:hover {
+	background:rgb(255,215,0,0.5);
+}
+
+#footer{
+	padding: 15px 0px 0px 10%;
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	top:300px;
+	background-color: rgba(57,56,52,0.55);
+	color: white;
+	text-align: left;
+	height: 200px;
+}
+
+/*When you are ready for testimonials, change the footer top to 160px and remove the display:none from the carousel in the css.*/
